@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import RouterPage from '@/routes';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <section>
+        <RouterPage />
+      </section>
     </div>
   );
 }
